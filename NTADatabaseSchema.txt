@@ -1,0 +1,148 @@
+﻿- Institution
+* id 
+* name
+* Type
+* Local Government Area
+* P.O BOX
+* Region
+* Town
+* Address
+* Phone Number
+* Email Address
+* NTA ID
+* Fax
+* Website
+* Source of financial support
+
+
+
+
+- Student
+* Id
+* Institution Id
+* First Name
+* Middle Name
+* Gender
+* Nationality
+* Role [the status of the person filling da formor certifiying that da data is correct]
+* Last Name
+* Date of Birth
+* Address
+* Status
+* Has Graduated ? 
+* Major
+* Email
+* Primary Phone Number
+* Secondary Phone Number
+* Fax
+* Student ID
+*
+
+
+- Student Courses/Enrollment
+* id
+* Student Id
+* Course ID
+* 
+ 
+- Student Gradution
+*id
+*Student ID
+*Course ID
+*Graduation Date
+
+
+- Courses (single) [no need to capture individual classes], specific to institution
+* Id
+* Name
+* Instructror Id
+
+
+- Financial Data
+  * institution id
+  * central govt revenue
+  * local govt revenue
+  * development partners revenue
+  * own generated revenue
+  * outstanding arreas
+  * staff cost
+  * administration expenses
+  * other
+  * year/quarter/some kind of time identifier
+
+
+
+
+
+
+
+
+- Programs
+* ID
+* No
+* ProgramsOffered
+* TuitionFee
+* AccretidedByNTA
+* Duration
+* InternationalExams
+* Remarks
+
+
+- Lecturers
+*Lec_ID*
+*First Name*
+*Last Name*
+*Ins_Id*
+*Primary Phone Number*
+*Secondary Phone Number
+*Address*
+*Nationality*
+*email*
+
+
+- Users
+  * will use plugin
+
+
+- StudentAttachments
+* student_id
+* attachment location id
+* type [Internship | Apprenticeship]
+
+
+
+
+- AttachmentLocation
+ * name
+ * Address
+ * region
+
+
+
+
+
+
+Notes
+Internships start from instituitions, it's part of a course, 3 month limit
+
+
+Apprentice a student with no instituition, but have attachment
+
+
+User Roles:
+- NTA Admin
+- NTA Data Entry
+- Institution Data Entry (add verify functionality)
+
+
+
+
+GSQ - What the institutions are license to trains
+is gsq candidate
+can only do one at a time
+dsq area
+level
+Multiple GSQ Programs/certification
+Each program has levels 1 to 4
+e.g. auto mechanics, installation
+"it defines the programmes that institutions are licensed to train"
